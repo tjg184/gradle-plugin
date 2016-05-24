@@ -24,6 +24,7 @@ jenkinsPlugin {
 
 dependencies {
   compile 'org.jenkins-ci.lib:dry-run-lib:0.1'
+  compile 'org.gradle:gradle-tooling-api:1.12'
 }
 
 defaultTasks 'test', 'jpi'
